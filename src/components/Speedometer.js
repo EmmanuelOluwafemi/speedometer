@@ -5,7 +5,7 @@ import { Wrapper } from '../styles/Wrapper.style'
 
 const Speedometer = () => {
 
-    const [speed, setSpeed] = useState(40.5)
+    const [speed, setSpeed] = useState(0)
 
     const turnRef = useRef(null)
     const sliderRef = useRef(null)
